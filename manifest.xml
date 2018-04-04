@@ -1,22 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="todss-bddbbb" version="0.0.0">
+<package uuid="todss" version="1.0.0">
  <names>
   <name lang="en_US">Untitled</name>
+  <name lang="nl_NL">Todss</name>
  </names>
  <supportedLanguages>
-  <language>en_US</language>
+  <language>nl_NL</language>
  </supportedLanguages>
  <descriptionLanguages>
-  <language>en_US</language>
+  <language>nl_NL</language>
  </descriptionLanguages>
  <contents>
-  <behaviorContent path="behavior_1">
+  <behaviorContent path="dialog_test">
    <userRequestable/>
    <nature>interactive</nature>
+   <names>
+    <name lang="nl_NL">dialog test</name>
+   </names>
    <triggerSentences/>
    <loadingResponses/>
    <autonomous/>
    <permissions/>
   </behaviorContent>
+  <behaviorContent path="Dabbing_pepper">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="nl_NL">dabbing_pepper</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="nl_NL">wat kan je doen</sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions>
+    <canStandUp/>
+    <canRunOnPod/>
+    <canSitDown/>
+   </permissions>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="basic_gesprek">
+   <topic language="nl_NL" path="basic_gesprek/basic_gesprek_dun.top"/>
+  </dialogContent>
  </contents>
+ <requirements>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
 </package>

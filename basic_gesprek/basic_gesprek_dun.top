@@ -1,0 +1,66 @@
+topic: ~basic_gesprek()
+language: dun
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(test) [hallo hoi hai hi hé]
+concept:(tziens) ["Tot ziens" doei "Tot de volgende keer" dag]
+concept:(hoi) [mens "Leuk je te zien" menspersoon "welkom bij deze leuke presentatie over mij"]
+concept:(hoofd) ["ik voel me net een kat" miauw miauw miauw "nu begint het vervelend te worden" "blijf eens van mijn hoofd" "heshtek mi toe" "Blijf nu alsjeblieft van mijn hoofd af"]
+concept:(ja) [JA natuurlijk ja "dat klopt"]
+concept: (naam) ["Ik ben Pep per, de H U Huisrobot" "Vroeger was mijn naam Hugo, maar nu heet ik weer gewoon Pep per" "Ik zit een beetje in een identiteitscrisis, maar volgens mij heet ik Pep per"]
+concept: (next) ["Laat me los"]
+
+u:(hallo) Hoi, ~hoi
+u:(hoi) Hoi, ~hoi
+u:(hai) Hoi, ~hoi
+u:(hi) hoi
+
+u:(pepper) ja, wat is er?
+u:(hoi, Pepper) hoi, mens!
+
+u:(ja) ~ja
+
+u:(tot ziens) ~tziens
+
+u:(e:HandLeftBackTouched) Ik heb liever niet dat je mijn hand vasthoudt 
+
+u:(Wat is jouw naam?) ~naam
+u:(hoe heet je?) ~naam
+u:(waarom) waarom wat?
+u:(waarom niet?) waarom wel?
+
+u:(waar kom je vandaan?) Ik ben ontwikkeld in Japan, maar ben gebouwd in Parijs
+u:(hoe oud ben jij?) Ik ben nu ongeveer 2 jaar oud
+
+u:(Wat doe jij hier vandaag?) Ik ben hier om jou te vermaken.
+
+u:(hoe gaat het met jou?) Met mij gaat het goed en met jou?
+u1:(het gaat goed) Wat fijn om te horen.
+u1:(het gaat niet zo goed) Oh, dan zal ik je proberen op te vrolijken.
+u1:(goed) Wat fijn om te horen.
+u1:(niet zo goed) Oh, dan zal ik je proberen op te vrolijken.
+
+
+u:(Doei) Doei. Wat fijn dat jullie er waren. Tot de volgende keer.
+
+u:(e:LeftBumperPressed) ^start(animations/Stand/Gestures/YouKnowWhat_1) AU! Je staat op mijn teen! ^wait(animations/Stand/Gestures/YouKnowWhat_1)
+u:(e:BackBumperPressed) ^start(animations/Stand/Gestures/YouKnowWhat_1) AU! Je staat op mijn teen! ^wait(animations/Stand/Gestures/YouKnowWhat_1)
+u:(e:RightBumperPressed) ^start(animations/Stand/Gestures/YouKnowWhat_1) AU! Je staat op mijn teen! ^wait(animations/Stand/Gestures/YouKnowWhat_1)
+
+u:(e:HandRightBackTouched) ^start(animations/Stand/Emotions/Positive/Excited_1) ~next
+
+u:(e:ALSignsAndFeedback/TabletTouchDetected) ^start(animations/Stand/Emotions/Positive/Excited_1) ~next
+
+u:(e:FrontTactilTouched) ^start(animations/Stand/Emotions/Positive/Excited_1) ~hoofd
+
+#u:(wat kan je doen) ^start(todss/Dabbing_pepper)
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+
