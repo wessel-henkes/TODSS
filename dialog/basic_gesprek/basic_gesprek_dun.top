@@ -23,8 +23,6 @@ u:(ja) ~ja
 
 u:(tot ziens) ~tziens
 
-u:(e:HandLeftBackTouched) Ik heb liever niet dat je mijn hand vasthoudt 
-
 u:(Wat is jouw naam?) ~naam
 u:(hoe heet je?) ~naam
 u:(waarom) waarom wat?
@@ -44,17 +42,12 @@ u1:(niet zo goed) Oh, dan zal ik je proberen op te vrolijken.
 
 u:(Doei) Doei. Wat fijn dat jullie er waren. Tot de volgende keer.
 
-u:(e:LeftBumperPressed) ^start(animations/Stand/Gestures/YouKnowWhat_1) AU! Je staat op mijn teen! ^wait(animations/Stand/Gestures/YouKnowWhat_1)
-u:(e:BackBumperPressed) ^start(animations/Stand/Gestures/YouKnowWhat_1) AU! Je staat op mijn teen! ^wait(animations/Stand/Gestures/YouKnowWhat_1)
-u:(e:RightBumperPressed) ^start(animations/Stand/Gestures/YouKnowWhat_1) AU! Je staat op mijn teen! ^wait(animations/Stand/Gestures/YouKnowWhat_1)
 
-u:(e:HandRightBackTouched) ^start(animations/Stand/Emotions/Positive/Excited_1) ~next
 
-u:(e:ALSignsAndFeedback/TabletTouchDetected) ^start(animations/Stand/Emotions/Positive/Excited_1) ~next
 
-u:(e:FrontTactilTouched) ^start(animations/Stand/Emotions/Positive/Excited_1) ~hoofd
 
-#u:(wat kan je doen) ^start(todss/Dabbing_pepper)
+
+
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1

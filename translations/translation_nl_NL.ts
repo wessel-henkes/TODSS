@@ -19,10 +19,9 @@
             <translation type="obsolete">ik kan debben</translation>
         </message>
         <message>
-            <location filename="Dabbing_pepper/behavior.xar" line="0"/>
             <source>kijk ik kan debben</source>
             <comment>Text</comment>
-            <translation type="unfinished">kijk ik kan debben</translation>
+            <translation type="obsolete">kijk ik kan debben</translation>
         </message>
     </context>
     <context>
@@ -36,6 +35,15 @@
             <source>kijk ik kan debben</source>
             <comment>Text</comment>
             <translation type="obsolete">kijk ik kan debben</translation>
+        </message>
+    </context>
+    <context>
+        <name>behaviours/Dabbing_pepper/behavior.xar:/Animated Say</name>
+        <message>
+            <location filename="behaviours/Dabbing_pepper/behavior.xar" line="0"/>
+            <source>kijk ik kan debben</source>
+            <comment>Text</comment>
+            <translation type="unfinished">kijk ik kan debben</translation>
         </message>
     </context>
     <context>

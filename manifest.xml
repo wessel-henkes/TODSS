@@ -11,36 +11,39 @@
   <language>nl_NL</language>
  </descriptionLanguages>
  <contents>
-  <behaviorContent path="dialog_test">
-   <userRequestable/>
+  <behaviorContent path="dialog/basic_gesprek">
    <nature>interactive</nature>
-   <names>
-    <name lang="nl_NL">dialog test</name>
-   </names>
    <triggerSentences/>
    <loadingResponses/>
    <autonomous/>
    <permissions/>
   </behaviorContent>
-  <behaviorContent path="Dabbing_pepper">
-   <userRequestable/>
+  <behaviorContent path="dialog/functies">
    <nature>interactive</nature>
-   <names>
-    <name lang="nl_NL">dabbing_pepper</name>
-   </names>
-   <triggerSentences>
-    <sentence lang="nl_NL">wat kan je doen</sentence>
-   </triggerSentences>
+   <triggerSentences/>
    <loadingResponses/>
    <autonomous/>
-   <permissions>
-    <canStandUp/>
-    <canRunOnPod/>
-    <canSitDown/>
-   </permissions>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/Dabbing_pepper">
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/move">
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="basic_gesprek">
-   <topic language="nl_NL" path="basic_gesprek/basic_gesprek_dun.top"/>
+   <topic path="dialog/basic_gesprek/basic_gesprek_dun.top" language="nl_NL"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="functies">
+   <topic path="dialog/functies/functies_dun.top" language="nl_NL"/>
   </dialogContent>
  </contents>
  <requirements>
