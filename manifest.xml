@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="todss" version="1.0.0">
+<package version="1.0.0" uuid="todss">
  <names>
   <name lang="en_US">Untitled</name>
   <name lang="nl_NL">Todss</name>
@@ -18,32 +18,33 @@
    <autonomous/>
    <permissions/>
   </behaviorContent>
-  <behaviorContent path="dialog/functies">
-   <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
-   <permissions/>
-  </behaviorContent>
   <behaviorContent path="behaviours/Dabbing_pepper">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="nl_NL">wat kan je doen</sentence>
+    <sentence lang="nl_NL">wat kan je </sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/epic sax">
    <nature>interactive</nature>
    <triggerSentences/>
    <loadingResponses/>
    <autonomous/>
    <permissions/>
   </behaviorContent>
-  <behaviorContent path="behaviours/move">
+  <behaviorContent path="behaviours/ha_gay">
    <nature>interactive</nature>
    <triggerSentences/>
    <loadingResponses/>
    <autonomous/>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="basic_gesprek">
-   <topic path="dialog/basic_gesprek/basic_gesprek_dun.top" language="nl_NL"/>
-  </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="functies">
-   <topic path="dialog/functies/functies_dun.top" language="nl_NL"/>
+  <dialogContent topicName="basic_gesprek" typeVersion="1.0">
+   <topic language="nl_NL" path="dialog/basic_gesprek/basic_gesprek_dun.top"/>
   </dialogContent>
  </contents>
  <requirements>

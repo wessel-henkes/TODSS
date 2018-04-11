@@ -48,7 +48,8 @@ u:(Wat doe jij hier vandaag?) Ik ben hier om jou te vermaken.
 u:(Doei) Doei. Wat fijn dat jullie er waren. Tot de volgende keer.
 
 
-u:(laat me met rust) ^start(todss/behaviours/Dabbing_pepper) 
+u:(laat me met rust) ^start(todss/behaviours/Dabbing_pepper)
+u:(wat vind je van) ^start(todss/behaviours/ha_gay) 
 
 #u:(laat me met rust) ^start(todss/behaviours/move) Oke
 
