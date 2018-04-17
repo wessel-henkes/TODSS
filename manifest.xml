@@ -13,9 +13,6 @@
  <contents>
   <behaviorContent path="dialog/basic_gesprek">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/Dabbing_pepper">
@@ -25,26 +22,74 @@
     <sentence lang="nl_NL">wat kan je doen</sentence>
     <sentence lang="nl_NL">wat kan je </sentence>
    </triggerSentences>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/epic sax">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/ha_gay">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="basic_gesprek" typeVersion="1.0">
-   <topic language="nl_NL" path="dialog/basic_gesprek/basic_gesprek_dun.top"/>
+  <behaviorContent path="behaviours/move">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/magic">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/dier/gorilla">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/dier/olifant">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/dier/koe">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/dier/hond">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/dier/kat">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/dier/muis">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/beatbox">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/zingen">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/zingen/blue">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/zingen/never">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/zingen/viva">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/1 - Copy (2)">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="basic_gesprek">
+   <topic path="dialog/basic_gesprek/basic_gesprek_dun.top" language="nl_NL"/>
   </dialogContent>
  </contents>
  <requirements>
