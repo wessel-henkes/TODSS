@@ -21,6 +21,7 @@
         <BehaviorDescription name="behavior" src="behaviours/zingen/blue" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="behaviours/zingen/never" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="behaviours/zingen/viva" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="Box" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="basic_gesprek" src="dialog/basic_gesprek/basic_gesprek.dlg" />
@@ -47,7 +48,9 @@
         <File name="360 links" src="planarmoves/360 links.pmt" />
         <File name="rickastley_artists-[AudioTrimmer.com]" src="behaviours/zingen/never/rickastley_artists-[AudioTrimmer.com].mp3" />
         <File name="Eiffel 65 - Blue (Da Ba Dee) (Original Video with subtitles)-[AudioTrimmer.com]" src="behaviours/zingen/blue/Eiffel 65 - Blue (Da Ba Dee) (Original Video with subtitles)-[AudioTrimmer.com].mp3" />
-        <File name="Coldplay - Viva La Vida-[AudioTrimmer.com]" src="behaviours/zingen/viva/Coldplay - Viva La Vida-[AudioTrimmer.com].mp3" />
+        <File name="beatbox" src="planarmoves/beatbox.pmt" />
+        <File name="Coldplay-Viva La Vida" src="behaviours/zingen/viva/Coldplay-Viva La Vida.mp3" />
+        <File name="DramaticCountdown" src="behaviours/1 - Copy (2)/DramaticCountdown.mp4" />
     </Resources>
     <Topics>
         <Topic name="basic_gesprek_dun" src="dialog/basic_gesprek/basic_gesprek_dun.top" topicName="basic_gesprek" language="nl_NL" />

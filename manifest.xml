@@ -22,6 +22,8 @@
     <sentence lang="nl_NL">wat kan je doen</sentence>
     <sentence lang="nl_NL">wat kan je </sentence>
    </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/epic sax">
@@ -85,6 +87,10 @@
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/1 - Copy (2)">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="Box">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>

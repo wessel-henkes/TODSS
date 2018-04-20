@@ -23,6 +23,7 @@ concept:(hoofd) ["ik voel me net een kat" miauw miauw miauw "nu begint het verve
 concept:(ja) [JA natuurlijk ja "dat klopt"]
 concept: (naam) ["Ik ben Pep per, de H U Huisrobot" "Vroeger was mijn naam Hugo, maar nu heet ik weer gewoon Pep per" "Ik zit een beetje in een identiteitscrisis, maar volgens mij heet ik Pep per"]
 concept: (next) ["Laat me los"]
+concept:(dood)[" 10 \pau=1000\ 9 \pau=1000\ 8 \pau=1000\ 7 \pau=1000\ 6 \pau=1000\ 5 \pau=1000\ 4 \pau=1000\ 3  \pau=1000\ 2  \pau=1000\ 1  \pau=1000\ boem   \pau=500\ hahaha  \pau=500\ grapje"]
 
 u:(hallo)   ~hoi
 u:(hoi)     ~hoi
@@ -68,7 +69,7 @@ u1:(niet goed) Oh, dan zal ik je proberen op te vrolijken.     ^start(todss/beha
 u:(Doei) Doei. Wat fijn dat jullie er waren. Tot de volgende keer.
 
 
-u:(["pepper wat kan je doen" "pepper wat kan je" "wat kan je doen" "wat kan je"]) ^start(todss/behaviours/Dabbing_pepper) kijk ik kan dabben ^wait(todss/behaviours/Dabbing_pepper) wil je nog iets zien?
+u:(["pepper wat kan je doen" "pepper wat kan je" "wat kan je doen" "wat kan je"]) ^start(todss/behaviours/Dabbing_pepper) kijk ik kan debben ^wait(todss/behaviours/Dabbing_pepper) wil je nog iets zien?
 u1:(ja) goed opletten. ^start(todss/behaviours/never)^wait(todss/behaviours/never)
 u1:(nee) gelukkig
 
@@ -82,13 +83,13 @@ u:(wat vind je van school) school? \pau=1000\ ^start(todss/behaviours/ha_gay) ^w
 
 u:(laat me met rust) ^start(todss/behaviours/move) Oke. sorry dat ik je gestoord heb. ^wait(todss/behaviours/move)
 
-#u:(olifant) kijk, ik ben een olifant \pau=1000\  ^start(todss/behaviours/dier/olifant) ^wait(todss/behaviours/dier/olifant)
-#u:(gorilla) kijk, ik ben een gorilla \pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
-#u:(aap) kijk, ik ben een aap\pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
-#u:(muis) kijk, ik ben een muis \pau=1000\     ^start(todss/behaviours/dier/muis) ^wait(todss/behaviours/dier/muis)
-#u:(koe) kijk, ik ben een koe \pau=1000\     ^start(todss/behaviours/dier/koe) ^wait(todss/behaviours/dier/koe)
-#u:(kat) kijk, ik ben een kat \pau=1000\     ^start(todss/behaviours/dier/kat) ^wait(todss/behaviours/dier/kat)
-#u:(hond) kijk, ik ben een hond \pau=1000\     ^start(todss/behaviours/dier/hond) ^wait(todss/behaviours/dier/hond)
+u:(olifant) kijk, ik ben een olifant \pau=1000\  ^start(todss/behaviours/dier/olifant) ^wait(todss/behaviours/dier/olifant)
+u:(gorilla) kijk, ik ben een gorilla \pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
+u:(aap) kijk, ik ben een aap\pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
+u:(muis) kijk, ik ben een muis \pau=1000\     ^start(todss/behaviours/dier/muis) ^wait(todss/behaviours/dier/muis)
+u:(koe) kijk, ik ben een koe \pau=1000\     ^start(todss/behaviours/dier/koe) ^wait(todss/behaviours/dier/koe)
+u:(kat) kijk, ik ben een kat \pau=1000\     ^start(todss/behaviours/dier/kat) ^wait(todss/behaviours/dier/kat)
+u:(hond) kijk, ik ben een hond \pau=1000\     ^start(todss/behaviours/dier/hond) ^wait(todss/behaviours/dier/hond)
 u:(magie) kijk, ik ben een boze tovenaar \pau=1000\     ^start(todss/behaviours/magic) ^wait(todss/behaviours/magic)
 
 u:(beatbox) kijk, ik kan beatboxen \pau=1000\  ^start(todss/behaviours/beatbox) ^wait(todss/behaviours/beatbox)
@@ -105,6 +106,9 @@ u:(e:ALSignsAndFeedback/TabletTouchDetected) ^start(animations/Stand/Emotions/Po
 
 u:(e:FrontTactilTouched) ^start(animations/Stand/Emotions/Positive/Excited_1) ~hoofd
 
+u:(kan je zingen) ^start(todss/behaviours/zingen/viva) ^wait(todss/behaviours/zingen/viva)
+u:(zing)^start(todss/behaviours/zingen/blue) ^wait(todss/behaviours/zingen/blue)
+
 
 
 # Catching inputs and triggering outputs
@@ -113,8 +117,12 @@ u:(e:FrontTactilTouched) ^start(animations/Stand/Emotions/Positive/Excited_1) ~h
 # Replying to speech
 #u:(~hello) ~hello
 
+u:(ik ben moe ) ~dood 
+u:(wat vind je van mij) ~dood
+u:(help me ) niet zo goed ~dood
+u:(help) ik ook. \pau=500\ laat ik dat oplossen  \pau=500\ ~dood
 
-
+u: (kan je dansen) ^start(todss/behaviours/never)^wait(todss/behaviours/never)
 
 
 #u: (welkom pepper) ~opening
