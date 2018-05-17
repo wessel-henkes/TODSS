@@ -35,6 +35,11 @@ u:(hoi, pepper)     ~hoi
 u:(hai, pepper)     ~hoi
 u:(hi, pepper)      ~hoi
 u:(hey, pepper)     ~hoi
+concept:(hallo)[hallo hi hoi hai hey "hallo, pepper" "hoi, pepper" "hi,pepper" "hey pepper" pepper]
+u:(~hallo) ~groet
+
+
+
 
 u:(pepper) ja, wat is er?
 #u:(hoi, Pepper) hoi, mens!
@@ -82,14 +87,15 @@ u:(beatboxen) ja dat kan ik ^start(todss/behaviours/beatbox)^wait(todss/behaviou
 u:(wat vind je van school) school? \pau=1000\ ^start(todss/behaviours/ha_gay) ^wait(todss/behaviours/ha_gay)
 
 u:(laat me met rust) ^start(todss/behaviours/move) Oke. sorry dat ik je gestoord heb. ^wait(todss/behaviours/move)
+u:(dieren) welk dier wil je dat ik na doe 
+u1:(olifant) kijk, ik ben een olifant \pau=1000\  ^start(todss/behaviours/dier/olifant) ^wait(todss/behaviours/dier/olifant)
+u1:(gorilla) kijk, ik ben een gorilla \pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
+u1:(aap) kijk, ik ben een aap\pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
+u1:(muis) kijk, ik ben een muis \pau=1000\     ^start(todss/behaviours/dier/muis) ^wait(todss/behaviours/dier/muis)
+u1:(koe) kijk, ik ben een koe \pau=1000\     ^start(todss/behaviours/dier/koe) ^wait(todss/behaviours/dier/koe)
+u1:(kat) kijk, ik ben een kat \pau=1000\     ^start(todss/behaviours/dier/kat) ^wait(todss/behaviours/dier/kat)
+u1:(hond) kijk, ik ben een hond \pau=1000\     ^start(todss/behaviours/dier/hond) ^wait(todss/behaviours/dier/hond)
 
-u:(olifant) kijk, ik ben een olifant \pau=1000\  ^start(todss/behaviours/dier/olifant) ^wait(todss/behaviours/dier/olifant)
-u:(gorilla) kijk, ik ben een gorilla \pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
-u:(aap) kijk, ik ben een aap\pau=1000\  ^start(todss/behaviours/dier/gorilla) ^wait(todss/behaviours/dier/gorilla)
-u:(muis) kijk, ik ben een muis \pau=1000\     ^start(todss/behaviours/dier/muis) ^wait(todss/behaviours/dier/muis)
-u:(koe) kijk, ik ben een koe \pau=1000\     ^start(todss/behaviours/dier/koe) ^wait(todss/behaviours/dier/koe)
-u:(kat) kijk, ik ben een kat \pau=1000\     ^start(todss/behaviours/dier/kat) ^wait(todss/behaviours/dier/kat)
-u:(hond) kijk, ik ben een hond \pau=1000\     ^start(todss/behaviours/dier/hond) ^wait(todss/behaviours/dier/hond)
 u:(magie) kijk, ik ben een boze tovenaar \pau=1000\     ^start(todss/behaviours/magic) ^wait(todss/behaviours/magic)
 
 u:(beatbox) kijk, ik kan beatboxen \pau=1000\  ^start(todss/behaviours/beatbox) ^wait(todss/behaviours/beatbox)
@@ -120,10 +126,11 @@ u:(zing)^start(todss/behaviours/zingen/blue) ^wait(todss/behaviours/zingen/blue)
 u:(ik ben moe ) ~dood 
 u:(wat vind je van mij) ~dood
 u:(help me ) niet zo goed ~dood
-u:(help) ik ook. \pau=500\ laat ik dat oplossen  \pau=500\ ~dood
+u:(help) ~dood 
+#ik ook. \pau=500\ laat ik dat oplossen  \pau=500\ ~dood
 
 u: (kan je dansen) ^start(todss/behaviours/never)^wait(todss/behaviours/never)
-
+#u:(loop) ^start(todss/behaviours/zingen/neverLoop)^wait(todss/behaviours/zingen/neverLoop)
 
 #u: (welkom pepper) ~opening
 #u: (Wat houdt de opleiding precies in?) ~inhoud
@@ -136,4 +143,12 @@ u: (kan je dansen) ^start(todss/behaviours/never)^wait(todss/behaviours/never)
 #u: (Hoeveel studenten vallen uit? Stoppen ze omdat de studie te zwaar is of om andere redenen?) ~uitvallers
 #u: (Is er een bindend studieadvies en wat houdt dat in?) ~studieadvies
 #u: (Hoe wordt er getoetst? Zijn er veel tentamens of moet je juist veel opdrachten maken?) ~toetsen
+
+
+
+
+
+
+
+
 

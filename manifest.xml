@@ -6,15 +6,13 @@
  </names>
  <supportedLanguages>
   <language>nl_NL</language>
+  <language>en_US</language>
  </supportedLanguages>
  <descriptionLanguages>
   <language>nl_NL</language>
+  <language>en_US</language>
  </descriptionLanguages>
  <contents>
-  <behaviorContent path="dialog/basic_gesprek">
-   <nature>interactive</nature>
-   <permissions/>
-  </behaviorContent>
   <behaviorContent path="behaviours/Dabbing_pepper">
    <userRequestable/>
    <nature>interactive</nature>
@@ -22,8 +20,6 @@
     <sentence lang="nl_NL">wat kan je doen</sentence>
     <sentence lang="nl_NL">wat kan je </sentence>
    </triggerSentences>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/epic sax">
@@ -90,13 +86,30 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <behaviorContent path="Box">
+  <behaviorContent path="behaviours/zingen/neverLoop">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="basic_gesprek">
-   <topic path="dialog/basic_gesprek/basic_gesprek_dun.top" language="nl_NL"/>
-  </dialogContent>
+  <behaviorContent path="behaviours/GetAge">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/GetEmotion">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/zingen/allstar">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/zingen/lazy">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="behaviours/r2d2">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
  </contents>
  <requirements>
   <robotRequirement model="JULIETTE"/>

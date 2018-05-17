@@ -21,7 +21,14 @@
         <BehaviorDescription name="behavior" src="behaviours/zingen/blue" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="behaviours/zingen/never" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="behaviours/zingen/viva" xar="behavior.xar" />
-        <BehaviorDescription name="behavior" src="Box" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/zingen/neverLoop" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/GetAge" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/Box" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/GetEmotion" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/zingen/allstar" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/zingen/lazy" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/r2d2" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="behaviours/fluiten" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="basic_gesprek" src="dialog/basic_gesprek/basic_gesprek.dlg" />
@@ -32,8 +39,6 @@
         <File name="firstmove" src="planarmoves/turn around.pmt" />
         <File name="epicsax" src="behaviours/epic sax/epicsax.ogg" />
         <File name="heaven1" src="behaviours/magic/behavior_1/heaven1.ogg" />
-        <File name="swiftswords_ext" src="behaviours/1 - Copy (2)/swiftswords_ext.mp3" />
-        <File name="taichimove" src="behaviours/1 - Copy (2)/taichimove.pmt" />
         <File name="Hah Gay!" src="behaviours/ha_gay/Hah Gay!.mp3" />
         <File name="elephant" src="behaviours/dier/olifant/elephant.ogg" />
         <File name="donkey-kong-gif-11" src="behaviours/dier/gorilla/donkey-kong-gif-11.gif" />
@@ -51,6 +56,12 @@
         <File name="beatbox" src="planarmoves/beatbox.pmt" />
         <File name="Coldplay-Viva La Vida" src="behaviours/zingen/viva/Coldplay-Viva La Vida.mp3" />
         <File name="DramaticCountdown" src="behaviours/1 - Copy (2)/DramaticCountdown.mp4" />
+        <File name="rickastley_artists-[AudioTrimmer.com]" src="behaviours/zingen/neverLoop/rickastley_artists-[AudioTrimmer.com].mp3" />
+        <File name="rickastley_artists" src="behaviours/zingen/neverLoop/rickastley_artists.mp3" />
+        <File name="Smash Mouth - All Star" src="behaviours/zingen/allstar/Smash Mouth - All Star.mp3" />
+        <File name="Bruno Mars - The Lazy Song [OFFICIAL VIDEO]" src="behaviours/zingen/lazy/Bruno Mars - The Lazy Song [OFFICIAL VIDEO].mp3" />
+        <File name="Star Wars - R2D2 sounds" src="behaviours/r2d2/Star Wars - R2D2 sounds.mp3" />
+        <File name="Hah Gay!" src="behaviours/fluiten/Hah Gay!.mp3" />
     </Resources>
     <Topics>
         <Topic name="basic_gesprek_dun" src="dialog/basic_gesprek/basic_gesprek_dun.top" topicName="basic_gesprek" language="nl_NL" />
@@ -58,10 +69,9 @@
         <Topic name="ExampleDialog_dun" src="behaviours/epic sax/ExampleDialog_dun.top" topicName="" language="" />
         <Topic name="ExampleDialog_enu" src="behaviours/epic sax/ExampleDialog_enu.top" topicName="3-musketeer-story" language="en_US" />
     </Topics>
-    <IgnoredPaths>
-        <Path src=".gitattributes" />
-    </IgnoredPaths>
+    <IgnoredPaths />
     <Translations auto-fill="nl_NL">
+        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
         <Translation name="translation_nl_NL" src="translations/translation_nl_NL.ts" language="nl_NL" />
     </Translations>
 </Package>
