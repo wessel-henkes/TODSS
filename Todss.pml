@@ -29,6 +29,7 @@
         <BehaviorDescription name="behavior" src="behaviours/zingen/lazy" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="behaviours/r2d2" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="behaviours/fluiten" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="backpackkid" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="basic_gesprek" src="dialog/basic_gesprek/basic_gesprek.dlg" />

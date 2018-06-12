@@ -94,6 +94,46 @@
             <translation type="vanished">Hallo</translation>
         </message>
         <message>
+            <source>ik ga kijken hoe je je voeld</source>
+            <comment>Text</comment>
+            <translation type="obsolete">ik ga kijken hoe je je voeld</translation>
+        </message>
+    </context>
+    <context>
+        <name>behaviours/GetEmotion/behavior.xar:/Animated Say (6)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <source>ik ga kijken hoe je je voeld</source>
+            <comment>Text</comment>
+            <translation type="obsolete">ik ga kijken hoe je je voeld</translation>
+        </message>
+    </context>
+    <context>
+        <name>behaviours/GetEmotion/behavior.xar:/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behaviours/GetEmotion/behavior.xar" line="0"/>
+            <source>het is niet gelukt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">het is niet gelukt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behaviours/GetEmotion/behavior.xar:/Say (1)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
             <location filename="behaviours/GetEmotion/behavior.xar" line="0"/>
             <source>ik ga kijken hoe je je voeld</source>
             <comment>Text</comment>

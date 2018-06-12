@@ -38,7 +38,34 @@
         </message>
     </context>
     <context>
-        <name>behaviours/GetEmotion/behavior.xar:/Animated Say (5)</name>
+        <name>behaviours/GetEmotion/behavior.xar:/Animated Say (6)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+    </context>
+    <context>
+        <name>behaviours/GetEmotion/behavior.xar:/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behaviours/GetEmotion/behavior.xar" line="0"/>
+            <source>het is niet gelukt</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behaviours/GetEmotion/behavior.xar:/Say (1)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
         <message>
             <location filename="behaviours/GetEmotion/behavior.xar" line="0"/>
             <source>ik ga kijken hoe je je voeld</source>

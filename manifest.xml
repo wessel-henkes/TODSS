@@ -82,10 +82,6 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <behaviorContent path="behaviours/1 - Copy (2)">
-   <nature>interactive</nature>
-   <permissions/>
-  </behaviorContent>
   <behaviorContent path="behaviours/zingen/neverLoop">
    <nature>interactive</nature>
    <permissions/>
@@ -107,6 +103,10 @@
    <permissions/>
   </behaviorContent>
   <behaviorContent path="behaviours/r2d2">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="backpackkid">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
